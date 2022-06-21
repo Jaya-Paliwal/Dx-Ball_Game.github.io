@@ -1,0 +1,69 @@
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.grid div{
+    background-color: #FFE833;
+    border: 2px solid saddlebrown;
+    width: 10%;
+    height: 30px;
+    margin: 10px;
+}
+
+.box{
+    position: fixed;
+    top: 90%;
+    left: 45%;
+}
+
+#ball{
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(farthest-side at 30px 30px, red, black 200%);
+    border-radius: 50px;
+    position: fixed;
+    left: 50%;
+    top: 80%;
+}
+ #paddle{
+     width: 100px;
+     height: 20px;
+     background-color: green;
+     position: fixed;
+
+ }
+ 
+ 
+#result{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(24, 99, 109);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display:none;
+    margin: 10% auto;
+    
+}
+
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    color: rgb(24, 99, 109);
+    background-color: white;;
+    font-size: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
